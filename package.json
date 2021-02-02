@@ -5,6 +5,7 @@
   "main": "./public/app.js",
   "types": "./public/app.d.ts",
   "scripts": {
+    "start": "node ./public/app.js",
     "build": "tsc",
     "dev": "nodemon ./src/app.ts",
     "format": "prettier --write \"src/**/*.{ts,js,d.ts}\"",
